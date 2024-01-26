@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(249, 241, 241) !important;
+    background-color:  #132330 !important;
+}
+
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end !important;
+    width: 98%;
+    border-bottom: 1px solid rgb(13, 12, 12) !important;
+    color: yellow;
+
+    background-image: url(logoatualizado);
+    background-repeat: no-repeat;
+    
+    
+        
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+}
+
+nav li {
+    margin: 0 15px;
+    background-color: #f2f3e9; /* Cor de fundo do botão */
+    border: none; /* Remove a borda padrão do botão */
+    color: #dc0b0b; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno (ajuste conforme necessário) */
+    border-radius: 5px; /* Borda arredondada */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    cursor: pointer; /* Muda o cursor para um ponteiro ao passar o mouse */
+    font-size: 16px; /* Tamanho da fonte (ajuste conforme necessário) */
+}
+
+h2{
+    color: white
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #020202 !important;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    border-bottom: 1px solid #0b3dd4c4;
+    padding-bottom: 10px;
+}
+
+
+#whatsbutton {
+    display: inline-block;
+    background-color: #25d366; /* Cor de fundo do WhatsApp */
+    color: #fff; /* Cor do texto */
+    font-size: 16px;
+    padding: 10px 20px; /* Espaçamento interno (ajuste conforme necessário) */
+    text-decoration: none; /* Remova a sublinhado padrão de links */
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-color 0.3s; /* Transição suave na cor de fundo */
+
+    /* Adicione uma sombra leve */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#whatsbutton:hover {
+    background-color: #128c7e; /* Cor de fundo alterada quando o mouse passa por cima */
+}
+
+#informacao{
+    text-align: center;
+    background-color: #132330;
+    
+    
+    
+}
+
+
+#endereco{
+    background-color: #f0f0f0; /* Adicione uma cor de fundo para o elemento */
+     border: 1px solid #ccc; /* Adicione uma borda para o elemento */
+     padding: 10px; /* Adicione algum espaçamento interno para melhorar a aparência */
+     color: black;
+    
+}
+ 
+#map {
+     width: 100%;
+     height: 400px; /* Ajuste a altura conforme necessário */
+}
+ 
+ 
+.map-responsive{
+ 
+     overflow:hidden;
+ 
+     padding-bottom:56.25%;
+ 
+     position:relative;
+ 
+     height:0;
+ 
+}
+ 
+.map-responsive iframe{
+ 
+     left:0;
+ 
+     top:0;
+ 
+     height:100%;
+ 
+     width:100%;
+    
+     position:absolute;
+  }
+
+.carousel-inner img section {
+    width: 100%; /* As imagens ocuparão 100% da largura do contêiner do carrossel */
+    height: 500px; /* A altura será ajustada automaticamente para manter a proporção original da imagem */
+}
+
